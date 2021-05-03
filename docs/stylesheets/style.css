@@ -62,7 +62,6 @@ body {
   margin: 10%;
   margin-top: 2vw;
   margin-bottom: 2vw;
-  padding-top: 0;
   font-size: 7vw;
 }
 
@@ -75,10 +74,14 @@ body {
   font-size: 5vw;
 }
 
+.boka-card-padding{
+  padding: 10%;
+}
+
 .kulor{
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid rgb(34, 34, 34);
+  border: 4px solid rgb(34, 34, 34);
 }
 
 .menu {
