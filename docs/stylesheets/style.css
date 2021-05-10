@@ -59,10 +59,11 @@ body {
 
 .card-rubrik{
   width: 80%;
-  margin: 10%;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  padding: 10%;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   font-size: 7vw;
+  margin: 0;
 }
 
 
