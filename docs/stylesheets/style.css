@@ -17,7 +17,7 @@ header{
   font-weight: normal;
   font-size: 5vw;
   line-height: 29px;
-  padding: 2vw 0vw;
+  padding-top: 2vw;
   background-color: #569E77;
   color: #DBE4E2;
 }
@@ -101,8 +101,47 @@ body {
   z-index: 1;
   color: black;
   font-size: 6vw;
+  margin: auto;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 .menu:hover .menu-content {
   display: block;
+}
+
+select{
+  margin: 0 10%;
+}
+
+textarea{
+  margin: 0 10%;
+}
+
+.menu-last{
+  margin: 10%;
+  margin-top: 0;
+}
+
+.card-button{
+  width: 80%;
+  font-size: 7vw;
+  margin: 10%;
+  background-color: #569E77;
+  color: #E6E3E1;
+  border-radius: 3vw;
+  border-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
